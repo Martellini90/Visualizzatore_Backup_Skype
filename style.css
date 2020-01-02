@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#conversazione_1{
+    cursor: pointer;
+}
+
+#colonna-sx{
+    background-color: aliceblue;
+    /*display: none;*/
+}
+
+#colonna-dx{
+    /*background-color: antiquewhite;*/
+    display: inline-block;
+    /*display: none;*/
+}
+
+#colonna-dx .post{
+    /*background-color: firebrick;*/
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+}
+    #colonna-dx .post > div{
+        max-width: 50%;
+    }
+
+    #colonna-dx .post h6{
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+
+#colonna-dx .post p{
+    background-color: cornflowerblue;
+    margin-bottom: 5px;
+    padding:15px;
+    
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+    #colonna-dx .mypost{
+        justify-content: flex-end;
+    }
+
+        #colonna-dx .mypost p{
+            background-color: lightgray;
+        }
